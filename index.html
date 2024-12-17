@@ -88,32 +88,26 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Nerfies: Deformable Neural Radiance Fields</h1>
+          <h1 class="title is-1 publication-title">TROSD: A New RGB-D Dataset for Transparent and Reflective Object Segmentation in Practice</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://keunhong.com">Keunhong Park</a><sup>1</sup>,</span>
+              <a href="https://provemj.github.io/">Tianyu Sun</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://utkarshsinha.com">Utkarsh Sinha</a><sup>2</sup>,</span>
+              Guodong Zhang<sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://jonbarron.info">Jonathan T. Barron</a><sup>2</sup>,
+              <a href="https://www.sigs.tsinghua.edu.cn/ywm_en/main.htm">Wenming Yang</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a><sup>2</sup>,
+              <a href="https://www.ucl.ac.uk/statistics/people/jinghaoxue">Jing-hao Xue</a><sup>2</sup>,
             </span>
             <span class="author-block">
-              <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
+              <a href="https://www.ee.tsinghua.edu.cn/en/info/1064/1275.htm">Guijin Wang</a><sup>1</sup>,
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Washington,</span>
-            <span class="author-block"><sup>2</sup>Google Research</span>
+            <span class="author-block"><sup>1</sup>Tsinghua University,</span>
+            <span class="author-block"><sup>2</sup>University College London</span>
           </div>
 
           <div class="column has-text-centered">
@@ -199,31 +193,25 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
+            Transparent and reflective objects are omnipresent in our daily lives, but their unique 
+            visual and optical characteristics are notoriously challenging even for state-of-the-art 
+            deep networks of semantic segmentation. 
           </p>
           <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
+            To alleviate this challenge, we construct a new large-scale real-world RGB-D dataset 
+            called TROSD, which is more comprehensive than existing datasets for transparent and 
+            reflective object segmentation. 
+            Our TROSD dataset contains 11,060 RGB-D images with three semantic classes in terms 
+            of transparent objects, reflective objects, and others, covering a variety of daily 
+            scenes. 
           </p>
           <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            Together with the dataset, we also introduce a novel network (TROSNet) as a high-
+            standard baseline to assist other researchers to develop and benchmark their algorithms 
+            of transparent and reflective object segmentation. 
+            Moreover, extensive experiments also clearly show that the proposed TROSD dataset has 
+            an excellent capacity to facilitate the development of semantic segmentation algorithms 
+            with strong generalizability. 
           </p>
         </div>
       </div>
