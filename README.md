@@ -1,4 +1,4 @@
-# Nerfies
+# TROSD
 
 This is the repository that contains source code for the [TROSD website]([https://nerfies.github.io](https://provemj.github.io/trosd.github.io/)).
 
