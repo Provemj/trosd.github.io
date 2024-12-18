@@ -55,6 +55,10 @@ body {
     font-family: 'Google Sans', sans-serif;
 }
 
+.conference-authors a {
+   color: #B6B6B6 !important;
+}
+
 .publication-venue {
     color: #555;
     width: fit-content;
