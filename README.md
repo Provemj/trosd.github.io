@@ -1,14 +1,18 @@
 # Nerfies
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [TROSD website]([https://nerfies.github.io](https://provemj.github.io/trosd.github.io/)).
 
-If you find Nerfies useful for your work please cite:
+If you find TROSD useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@article{sun2023trosd,
+  title={Trosd: A new rgb-d dataset for transparent and reflective object segmentation in practice},
+  author={Sun, Tianyu and Zhang, Guodong and Yang, Wenming and Xue, Jing-Hao and Wang, Guijin},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  volume={33},
+  number={10},
+  pages={5721--5733},
+  year={2023},
+  publisher={IEEE}
 }
 ```
 
